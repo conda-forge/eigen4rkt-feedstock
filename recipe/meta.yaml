@@ -1,4 +1,4 @@
-{% set version = "3.3.90.1" %}
+{% set version = "3.3.90.2" %}
 
 package:
   name: eigen4rkt
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/reaktoro/eigen4rkt/archive/v{{ version }}.tar.gz
-  sha256: 8f8cffb0e08d7e7530ab25f3ca5e76c5c2574d1fb10ae36bf7a55f29ad2fdeef
+  sha256: ee3741155c9be53488b2f1a3f143f2c9a34a4f06ba345965c2826a4ca93b4845
 
 build:
   number: 0
@@ -35,7 +35,7 @@ about:
   license: MPL-2.0
   license_family: MOZILLA
   license_file: COPYING.MPL2
-  summary: 'eigen4rkt is a fork of eigen to be used in Reaktoro (it exists solely to produce conda-forge package with most up-to-date version of eigen, not yet released by the eigen team)'
+  summary: eigen4rkt is a fork of eigen to be used in Reaktoro (it exists solely to produce conda-forge package with most up-to-date version of eigen, not yet released by the eigen team)
   doc_url: https://github.com/reaktoro/eigen4rkt
   dev_url: https://github.com/reaktoro/eigen4rkt
 
