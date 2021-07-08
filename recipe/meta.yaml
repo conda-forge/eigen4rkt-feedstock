@@ -1,4 +1,4 @@
-{% set version = "3.3.90.3" %}
+{% set version = "3.3.90.4" %}
 
 package:
   name: eigen4rkt
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/reaktoro/eigen4rkt/archive/v{{ version }}.tar.gz
-  sha256: 38b009a0ccbdf745b12929cc734323e47848957ed4f04a86402df7351fef8f51
+  sha256: 9c288a1745bb1475a3d284b43091040e61ed06b771f1f2af7e021be86de471bd
 
 build:
   number: 0
