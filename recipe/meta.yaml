@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/reaktoro/eigen4rkt/archive/v{{ version }}.tar.gz
-  sha256: c6d3b6bfb6327912c84e4b97fa4ea3b5cd9f92659356b748277e2badbe4334aa
+  sha256: 9c288a1745bb1475a3d284b43091040e61ed06b771f1f2af7e021be86de471bd
 
 build:
   number: 0
