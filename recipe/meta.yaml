@@ -16,8 +16,8 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
 
-  run_constrained:
-    - eigen ==999999999999  # To avoid conflicts, eigen4rkt and eigen cannot coexist in the same conda environment.
+  # run_constrained:
+    # - eigen ==999999999999  # To avoid conflicts, eigen4rkt and eigen cannot coexist in the same conda environment.  -- UDAPTE: NO LONGER NEEDED - REAKTORO NOW USES EIGEN DIRECTLY.
 test:
   requires:
     - {{ compiler('cxx') }}
